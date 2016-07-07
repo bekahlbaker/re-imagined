@@ -41,6 +41,19 @@
 .grid{
 	background: #E1CBC2;
 	border: 3px solid $white;
+	height: 25vh;
+		@media (max-width: $screen-sm-max) {
+			height: 30vh;
+			
+		}
+	.more{
+	color: #736833;
+	font-weight: 300;
+	font-size: 1em;
+		&:hover{
+			text-decoration: underline;
+		}
+}
 	a{
 		color: #C5B358;
 			&:hover{
@@ -51,5 +64,7 @@
 }
 
 h2{
+	margin: 0;
+	padding: 10px 0 0;
 	text-align: center;
 }
