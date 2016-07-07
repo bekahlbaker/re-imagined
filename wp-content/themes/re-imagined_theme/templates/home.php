@@ -9,13 +9,13 @@ Template Name: Home Template
 		<div class="content">
 			<div class="welcome">
 				<h1><?php the_field('welcome') ?></h1>
-				<p><?php the_field('message') ?></p>
+				<p style="text-transform: uppercase;"><?php the_field('message') ?></p>
 			</div>
 		</div>
 	</div>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid main-grid">
 	<div class="row">
 		<div class="col-md-6 grid">
 			<a href="<?php bloginfo('url'); ?>/blog"><h2>Blog</h2></a>
