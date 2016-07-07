@@ -1,0 +1,53 @@
+// ------------------------------------------------------------
+// Styles
+//
+// Everything from the styles directory gets imported here. 
+// Also, here's a brief explanation/cheat sheet of what all of the sub-directories are intended for.
+// You can obviously think about this any way you like, this is all about organizing the thoughts of you and your team.
+//
+// * Base- Global styles, resets, normalize, etc.
+// * Layout- Header, Footer, Sidebar- any other major 'building blocks'
+// * Partials- These are smaller chunks of code that you might want to pull into any given page. Modules, Content Blocks- 'parts' of your templates.
+// * Patterns- Elements that are used throughout the site, and need to be managed in one place. Forms, Typography, etc.
+// * Templates- Pages Templates, Single post templates.
+// ------------------------------------------------------------
+
+//
+// Custom Globals
+// --------------------------------------------------
+@import "custom-globals/custom-variables";
+@import "custom-globals/typography";
+@import "custom-globals/scaffolding";
+@import "custom-globals/custom-mixins";
+
+//
+// Elements
+// --------------------------------------------------
+@import "elements/modals";
+@import "elements/blockquotes";
+@import "elements/tooltips";
+@import "elements/buttons";
+@import "elements/modals";
+@import "elements/blockquotes";
+@import "elements/tooltips";
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:900italic,700italic,400italic);
+@import url(https://fonts.googleapis.com/css?family=Catamaran:100,300);
+
+//
+// Layouts
+// --------------------------------------------------
+@import "layout/header";
+@import "layout/sidebar";
+@import "layout/footer";
+
+//
+// Partials
+// --------------------------------------------------
+
+
+//
+// Templates
+// --------------------------------------------------
+@import "templates/placeholder";
+@import "templates/home";
+@import "templates/blog";

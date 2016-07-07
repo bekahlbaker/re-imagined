@@ -1,0 +1,49 @@
+.filter{
+		-webkit-filter: sepia(20%);
+		box-shadow:  inset 0px 0px 150px #323430;
+
+	}
+
+.content{
+			padding-bottom: 8vh;
+			text-align: center;
+
+		.welcome {
+			padding-bottom: 10vh;
+			padding-top: 20vh;
+			text-align: center;
+
+				h1{
+					color: $white;
+					font-family: $heading-font;
+					font-weight: 900;
+					margin: 0;
+					padding: 1vh;
+				}
+
+				p{
+					color: $white;
+					font-family: $body-font;
+					font-size: 1.25em;
+					font-weight: 100;
+					margin: 0;
+					padding: 1vh;
+				}
+		}
+	}
+
+.grid{
+	background: #E1CBC2;
+	border: 3px solid $white;
+	a{
+		color: #C5B358;
+			&:hover{
+				text-decoration: none;
+				color: $white;
+			}
+		}
+}
+
+h2{
+	text-align: center;
+}
