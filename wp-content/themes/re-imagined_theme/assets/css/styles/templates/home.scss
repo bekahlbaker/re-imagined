@@ -39,7 +39,7 @@
 }
 
 .grid{
-	background: #E1CBC2;
+	background: $pink;
 	border: 3px solid $white;
 	height: 25vh;
 		@media (max-width: $screen-sm-max) {
@@ -47,18 +47,21 @@
 			
 		}
 	.more{
-	color: #736833;
+	color: $white;
 	font-weight: 300;
 	font-size: 1em;
+	text-decoration: underline;
+	text-transform: uppercase;
 		&:hover{
-			text-decoration: underline;
-		}
+				text-decoration: underline;
+				color: $gold;
+			}
 }
 	a{
-		color: #C5B358;
+		color: $white;
 			&:hover{
 				text-decoration: none;
-				color: #968943;
+				color: $gold;
 			}
 		}
 }

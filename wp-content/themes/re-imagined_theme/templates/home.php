@@ -20,21 +20,21 @@ Template Name: Home Template
 	<div class="row">
 		<div class="col-md-6 grid">
 			<a href="<?php bloginfo('url'); ?>/blog"><h2>Blog</h2></a>
-			<p><?php the_field('blog_message') ?><a href="<?php bloginfo('url'); ?>/blog" class="more"> ...read more</a></p>
+			<p><?php the_field('blog_message') ?></p>
 		</div>
 		<div class="col-md-6 grid">
 			<a href=""><h2>Gallery</h2></a>
-			<p><?php the_field('gallery_message') ?><a href="" class="more"> ...read more</a></p>
+			<p><?php the_field('gallery_message') ?></p>
 		</div>	
 	</div>
 	<div class="row">
 		<div class="col-md-6 grid">
 			<a href=""><h2>Social Media</h2></a>
-			<p><?php the_field('social_message') ?><a href="" class="more"> ...read more</a></p>
+			<p><?php the_field('social_message') ?></p>
 		</div>
 		<div class="col-md-6 grid">
 			<a href=""><h2>Contact</h2></a>
-			<p><?php the_field('contact_message') ?><a href="" class="more"> ...read more</a></p>
+			<p><?php the_field('contact_message') ?></p>
 		</div>
 	</div>
 </div>

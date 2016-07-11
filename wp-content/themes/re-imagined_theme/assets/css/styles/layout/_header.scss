@@ -2,20 +2,29 @@ header {
 	overflow-x:hidden;
 
 	.logo{
-		padding: 20px 20px 0px 20px;
+		padding: 20px 20px 5px 20px;
+			&:hover{
+				text-decoration: none!important;
+			}
 
 		p{
 			color: $brown;
-			font-family: $heading-font;
-			font-size: 2em;
+			font-family: $body-font;
+			font-size: 1em;
+			font-weight: 300;
 			margin: 0;
-			text-transform: lowercase;
+			text-transform: uppercase;
+				a{
+					&:hover{
+						text-decoration: none!important;
+					}
+				}
 		}
 
 	}
 
 	.nav-menu{
-		padding: 25px 20px 0px 20px;
+		padding: 20px 20px 5px 20px;
 
 				ul {
 					list-style: none;
