@@ -14,7 +14,7 @@ function init_js() {
       $src = "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://code.jquery.com/jquery-1.11.2.min.js",
       $deps = array(),
       $ver = null,
-      $in_footer = true
+      $in_footer = false
     );
     wp_enqueue_script('site-jquery');
 
@@ -34,7 +34,7 @@ function init_js() {
       $src = get_bloginfo('template_directory') . '/assets/js/vendors.min.js',
       $deps = array('site-jquery'),
       $ver = null,
-      $in_footer = true
+      $in_footer = false
     );
     wp_enqueue_script('vendor-scripts');
 
