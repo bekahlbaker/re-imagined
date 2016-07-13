@@ -3,6 +3,10 @@ header {
 
 	.logo{
 		padding: 20px 20px 5px 20px;
+		text-align: left;
+			@media (max-width: $screen-sm-max) {
+				text-align: center;
+			}
 			&:hover{
 				text-decoration: none!important;
 			}
@@ -24,7 +28,12 @@ header {
 	}
 
 	.nav-menu{
-		padding: 20px 20px 5px 20px;
+		margin-top: -40px;
+		text-align: right;
+			@media (max-width: $screen-sm-max) {
+				margin-top: 0px;
+				text-align: center;
+			}
 
 				ul {
 					list-style: none;

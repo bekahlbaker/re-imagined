@@ -3,7 +3,7 @@
 Template Name: Home Template
 */
 ?>
-<?php get_header(); ?>
+<?php get_header('home'); ?>
 <div class="hero filter" style="background-image: url('<?php the_field('image'); ?>') ; background-size: cover;">
 	<div class="container-fluid">
 		<div class="content">
@@ -18,26 +18,26 @@ Template Name: Home Template
 
 <div class="container-fluid main-grid">
 	<div class="row">
-		<div class="col-md-6 grid">
+		<div class="col-md-6 grid background ">
 			<a href="<?php bloginfo('url'); ?>/blog"><h2>Blog</h2></a>
 			<p><?php the_field('blog_message') ?></p>
 		</div>
-		<div class="col-md-6 grid">
+		<div class="col-md-6 grid background t">
 			<a href=""><h2>Gallery</h2></a>
 			<p><?php the_field('gallery_message') ?></p>
 		</div>	
 	</div>
 	<div class="row">
-		<div class="col-md-6 grid">
+		<div class="col-md-6 grid background">
 			<a href=""><h2>Social Media</h2></a>
 			<p><?php the_field('social_message') ?></p>
 		</div>
-		<div class="col-md-6 grid">
+		<div class="col-md-6 grid background">
 			<a href=""><h2>Contact</h2></a>
 			<p><?php the_field('contact_message') ?></p>
 		</div>
 	</div>
 </div>
 
-<?php get_footer(); ?>
+<?php get_footer('home'); ?>
 

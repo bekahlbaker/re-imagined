@@ -1,3 +1,16 @@
+.background{
+	background: $pink;
+	border: 3px solid $white;
+}
+
+.background-home{
+	background: $white;
+}
+
+.background-other{
+	background: $pink;
+}
+
 .filter{
 		-webkit-filter: sepia(20%);
 		box-shadow:  inset 0px 0px 150px #323430;
@@ -39,13 +52,10 @@
 }
 
 .grid{
-	background: $pink;
-	border: 3px solid $white;
 	height: 25vh;
-		@media (max-width: $screen-sm-max) {
-			height: 30vh;
-			
-		}
+	@media (max-width: $screen-sm-max) {
+		height: 33vh;			
+	}
 	.more{
 	color: $white;
 	font-weight: 300;
@@ -70,4 +80,37 @@ h2{
 	margin: 0;
 	padding: 10px 0 0;
 	text-align: center;
+}
+
+.top-left{
+	border-right: .5px solid $brown;
+	border-bottom: .5px solid $brown;
+		@media (max-width: $screen-sm-max) {
+			border-right: .5px solid transparent;
+			border-bottom: 2px solid $brown;
+		}
+}
+.top-right{
+	border-left: .5px solid $brown;
+	border-bottom: .5px solid $brown;
+		@media (max-width: $screen-sm-max) {
+			border-left: .5px solid transparent;
+			border-bottom: 2px solid $brown;
+		}
+}
+.bottom-left{
+	border-right: .5px solid $brown;
+	border-top: .5px solid $brown;
+		@media (max-width: $screen-sm-max) {
+			border-right: .5px solid transparent;
+			border-top: .5px solid transparent;
+		}
+}
+.bottom-right{
+	border-left: .5px solid $brown;
+	border-top: .5px solid $brown;
+		@media (max-width: $screen-sm-max) {
+			border-left: .5px solid transparent;
+			border-top: 2px solid $brown;
+		}
 }

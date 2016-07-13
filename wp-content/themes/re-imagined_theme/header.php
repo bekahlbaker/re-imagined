@@ -19,15 +19,15 @@
  <body class="ie9">
 <![endif]-->
 <!--[if !IE]>-->
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> >
 <!--<![endif]-->
 
-<header>
+<header class="background-other">
 	<div class="container-fluid">
-		<a class="pull-left logo" href="<?php bloginfo('url'); ?>">
+		<a class="logo" href="<?php bloginfo('url'); ?>">
 				<p>lindsay aggen</p>
 		</a>
-		<div class="nav-menu pull-right">
+		<div class="nav-menu">
 				<?php
 					$defaults = array(
 						'theme_location' => 'main-nav',
