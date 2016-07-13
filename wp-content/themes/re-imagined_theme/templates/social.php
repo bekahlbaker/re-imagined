@@ -11,12 +11,8 @@ Template Name: Social Template
 	</div>
 <hr>
 	<div class="facebook">
-		<?php echo do_shortcode('[fts_facebook id=reimaginedbyLindsay posts=5 posts_displayed=page_only type=page]' ); ?>
+		<?php echo do_shortcode('[fts_facebook id=reimaginedbyLindsay posts=2 posts_displayed=page_only type=page]' ); ?>
 	</div>
-</div>
-<hr>
-<div class="gallery container">
-	<?php echo do_shortcode("[huge_it_gallery id='2']"); ?>
 </div>
 
 <?php get_footer(); ?>
