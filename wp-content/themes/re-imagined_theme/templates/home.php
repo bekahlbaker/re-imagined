@@ -18,18 +18,18 @@ Template Name: Home Template
 
 <div class="container-fluid main-grid">
 	<div class="row">
+		<div class="col-md-6 grid background t">
+			<a href=""><h2>About</h2></a>
+			<p><?php the_field('gallery_message') ?></p>
+		</div>	
 		<div class="col-md-6 grid background ">
 			<a href="<?php bloginfo('url'); ?>/blog"><h2>Blog</h2></a>
 			<p><?php the_field('blog_message') ?></p>
 		</div>
-		<div class="col-md-6 grid background t">
-			<a href=""><h2>Gallery</h2></a>
-			<p><?php the_field('gallery_message') ?></p>
-		</div>	
 	</div>
 	<div class="row">
 		<div class="col-md-6 grid background">
-			<a href=""><h2>Social Media</h2></a>
+			<a href=""><h2>Portfolio</h2></a>
 			<p><?php the_field('social_message') ?></p>
 		</div>
 		<div class="col-md-6 grid background">
