@@ -7,7 +7,7 @@ Template Name: Gallery Template
 
 <div class="gallery container">
 <hr>
-	<?php echo do_shortcode("[huge_it_gallery id='2']"); ?>
+	<?php echo do_shortcode("[FinalTilesGallery id='1']"); ?>
 <hr>
 </div>
 

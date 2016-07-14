@@ -42,6 +42,23 @@
 					margin: 0;
 					padding: 0;
 				}
+
+				button{
+					background: $gold;
+				    border: 3px solid $gold;
+				    font-family: $body-font;
+				    font-size: 1em;
+				    margin: 10px auto;
+				    padding: 10px 40px;
+				    text-transform: uppercase;
+				    color: $brown;
+				    	&:hover{
+				    		background: transparent;
+				    		a{
+				    			text-decoration: none;
+				    		}
+				    	}
+				}
 		}
 	}
 
@@ -66,7 +83,6 @@
 		color: $white;
 			&:hover{
 				text-decoration: none;
-				color: $gold;
 			}
 		}
 }
