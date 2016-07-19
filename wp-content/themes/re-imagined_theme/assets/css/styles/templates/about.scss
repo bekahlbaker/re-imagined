@@ -1,0 +1,26 @@
+.title{
+	h4{
+	font-size: 4em;
+	text-transform: lowercase;
+		&::first-letter{
+		text-transform: uppercase;
+	}
+}
+}
+
+.profile{
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+	overflow: hidden;
+	margin: 0 auto;
+	border: 2px solid $brown;
+}
+
+// .social-links{
+// 	padding: 10px 0;
+// 	li{
+// 	list-style: none;
+// 	display: inline;
+// }
+// }

@@ -1,27 +1,4 @@
-// hr {
-//     height: 30px;
-//     border-style: solid;
-//     border-color: $pink;
-//     border-width: 2px 0 0 0;
-//     border-radius: 20px;
-//     width: 100%;
-// }
-// hr:before { 
-//     display: block;
-//     content: "";
-//     height: 30px;
-//     margin-top: -31px;
-//     border-style: solid;
-//     border-color: $pink;
-//     border-width: 0 0 2px 0;
-//     border-radius: 20px;
-// }
-
-hr{
-    border: 0;
-    height: 2px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(225, 203, 194, 0.75), rgba(0, 0, 0, 0));
-    width: 100%;
+.post{
 }
 
 h3{
@@ -41,9 +18,21 @@ p{
 	margin: 0;	
 }
 
-.post{
-	padding: 10px 0;
+.excerpt{
+	a{
+		color: $gold!important;
+	}
 }
-.post_content{
-	padding: 10px 0px;
+
+.thumbnail{
+	max-width: 300px;
+}
+
+.sidebar{
+	padding: 25px;
+	padding-top: 75px;
+	text-align: center;
+}
+.categories{
+	font-family: $body-font;
 }

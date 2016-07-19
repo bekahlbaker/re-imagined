@@ -8,3 +8,22 @@
 .container{
 	padding: 50px;
 }
+
+button{
+	background: $gold;
+    border: 3px solid $gold;
+    border-radius: 10px;
+    font-family: $body-font;
+    font-size: 1em;
+    letter-spacing: 2px;
+    margin: 20px auto;
+    padding: 8px 60px;
+    text-transform: uppercase;
+    color: $brown;
+    	&:hover{
+    		background: transparent;
+    		a{
+    			text-decoration: none;
+    		}
+    	}
+}

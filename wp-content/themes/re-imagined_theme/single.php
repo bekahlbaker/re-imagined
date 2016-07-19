@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
 <div class="single_post container">
-<hr>
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<div class="single content-block">	
 		<h3><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
@@ -19,7 +18,6 @@
 </div>
 <div class="comments container">
 	<?php comments_template(); ?>
-<hr>
 </div>
 
 <?php endwhile; else: ?>

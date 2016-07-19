@@ -1,42 +1,41 @@
 .gallery{
-	padding: 50px 0px 50px 60px;
-h3{
-	color: $gold!important;
-	font-family: $body-font!important;
-	text-transform: uppercase!important;
-}
-}
-.title{
-	color: $gold!important;
-	font-family: $body-font!important;
-	text-transform: uppercase!important;
-}
-.description{
-	p,li{
-		text-transform: none!important;
+	display: block;
+	padding: 3px 0;
+	margin: 0 auto;
+	li{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		text-align: center;
 	}
-}
+	img{
+		height: 16.5vw;
+		width: 16.5vw;
+			@media (max-width: $screen-sm-max) {
+				height: 32vw;
+				width: 32vw;
+			}
 
-#gicolorbox{
-	height: 500px!important;
-}
+	}
 
-#gicboxWrapper{
-	height: 500px!important;
-}
+	.one{
+		position: relative;
+		overflow: hidden;
+		border: 2px solid white;
+	}
+	.description{
+		margin: 0 auto;
+		bottom: 0px;
+		background-color: rgba(0,0,0,0.7);
+		height: 40px;
+		width: 16.5vw;
+		overflow: hidden;
+		position: absolute;
+			@media (max-width: $screen-sm-max) {
+				left: 2px;
+				width: 32vw;
+			}
 
-#gicboxMiddleLeft{
-	height: 458!important;
-}
-
-#gicboxContent{
-	height: 458px!important;
-}
-
-#gicboxLoadedContent{
-	height: 430px!important;
-}
-
-.gicboxPhoto{
-	height: 430px!important;
+	}
+	
 }

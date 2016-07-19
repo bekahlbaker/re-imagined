@@ -3,3 +3,9 @@
 	background: $color;
 	background: rgba($color, $opacity);
 }
+
+@mixin vertical-center-element(){
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
