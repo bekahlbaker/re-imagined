@@ -1,41 +1,10 @@
 .gallery{
-	display: block;
-	padding: 3px 0;
-	margin: 0 auto;
-	li{
-		list-style: none;
-		padding: 0;
-		margin: 0;
+	padding: 50px 0px;
+	p{
+		color: $gold;
+		font-family: $heading-font;
+		font-size: 2em;
 		text-align: center;
+		padding-top: 25px;
 	}
-	img{
-		height: 16.5vw;
-		width: 16.5vw;
-			@media (max-width: $screen-sm-max) {
-				height: 32vw;
-				width: 32vw;
-			}
-
-	}
-
-	.one{
-		position: relative;
-		overflow: hidden;
-		border: 2px solid white;
-	}
-	.description{
-		margin: 0 auto;
-		bottom: 0px;
-		background-color: rgba(0,0,0,0.7);
-		height: 40px;
-		width: 16.5vw;
-		overflow: hidden;
-		position: absolute;
-			@media (max-width: $screen-sm-max) {
-				left: 2px;
-				width: 32vw;
-			}
-
-	}
-	
 }

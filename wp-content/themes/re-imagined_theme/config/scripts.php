@@ -8,15 +8,15 @@ function init_js() {
 
   
     // Redfine jQuery
-    wp_deregister_script('jquery');
-    wp_register_script(
-      $handle = 'site-jquery',
-      $src = "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://code.jquery.com/jquery-1.11.2.min.js",
-      $deps = array(),
-      $ver = null,
-      $in_footer = false
-    );
-    wp_enqueue_script('site-jquery');
+    // wp_deregister_script('jquery');
+    // wp_register_script(
+    //   $handle = 'site-jquery',
+    //   $src = "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://code.jquery.com/jquery-1.11.2.min.js",
+    //   $deps = array(),
+    //   $ver = null,
+    //   $in_footer = false
+    // );
+    // wp_enqueue_script('site-jquery');
 
     // Define Modernizr
     wp_register_script(
@@ -32,7 +32,7 @@ function init_js() {
     wp_register_script(
       $handle = 'vendor-scripts',
       $src = get_bloginfo('template_directory') . '/assets/js/vendors.min.js',
-      $deps = array('site-jquery'),
+      $deps = array('jquery'),
       $ver = null,
       $in_footer = false
     );
@@ -42,7 +42,7 @@ function init_js() {
     wp_register_script(
       $handle = 'main-scripts',
       $src = get_bloginfo('template_directory') . '/assets/js/main.min.js',
-      $deps = array('site-jquery'),
+      $deps = array('jquery'),
       $ver = null,
       $in_footer = true
     );
