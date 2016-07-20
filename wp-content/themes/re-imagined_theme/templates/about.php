@@ -8,22 +8,16 @@ Template Name: About Template
 <div class="about container">
 <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 	<div class="title">
-		<h4><?php the_title( ); ?></h4>
+		<h4><?php the_field('about_title') ?></h4>
 	</div>
 	<div class="row">
-		<div class="col-md-4 pull-right" style="text-align: center;">
+		<div class="col-md-4 " >
 			<div class="profile">
 				<?php the_post_thumbnail(); ?>
 			</div>
-<!-- 			<ul class="social-links">
-				<li>facebook</li>
-				<li>twitter</li>
-				<li>instagram</li>
-				<li>email</li>
-			</ul> -->
-			<a href=""><button>Hire Me</button></a>
+			<a href=""><button><?php the_field('about_button') ?></button></a>
 		</div>
-		<div class="col-md-8 pull-left">
+		<div class="col-md-8 ">
 			<p><?php the_content( ); ?></p>
 		</div>
 	</div>

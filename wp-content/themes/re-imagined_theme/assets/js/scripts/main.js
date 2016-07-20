@@ -1,12 +1,8 @@
 +function ($) {
     'use strict';
 
-// $('.description').hide();
-
-// $('.one').hover(function() {
-// 	$(this).children('.description').slideDown();
-// }, function() {
-// 	$(this).children('.description').slideUp();
-// });
+  $(document).ready(function(){
+    $("#sticker").sticky({topSpacing:0});
+  });
 
 }(jQuery);

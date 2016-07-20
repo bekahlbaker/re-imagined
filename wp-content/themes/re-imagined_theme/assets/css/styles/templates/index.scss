@@ -1,4 +1,5 @@
-.post{
+.index{
+	padding-left: 50px;
 }
 
 h3{
@@ -25,14 +26,16 @@ p{
 }
 
 .thumbnail{
-	max-width: 300px;
+	max-width: 500px;
+	margin: 0 auto;
 }
 
-.sidebar{
-	padding: 25px;
-	padding-top: 75px;
-	text-align: center;
+.excerpt{
+	max-width: 500px;
+	margin: 0 auto;
 }
-.categories{
+
+.pagination{
 	font-family: $body-font;
+	color: $brown;
 }

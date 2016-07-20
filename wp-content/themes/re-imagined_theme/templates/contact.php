@@ -7,7 +7,7 @@ Template Name: ContactTemplate
 
 <div class="contact container">
 	<div class="title">
-		<h4><?php the_title( ); ?></h4>
+		<h4><?php the_field('contact_title') ?></h4>
 	</div>
 	<div class="message">
 		<p>

@@ -11,3 +11,19 @@
 //
 // Sidebar
 // --------------------------------------------------
+
+.sidebar{
+	padding: 25px;
+	padding-top: 40px;
+	 @media (max-width: $screen-sm-max) {
+	 	padding-top: 0px;
+	 }
+	text-align: center;
+	h3{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.categories{
+		font-family: $body-font;
+	}
+}

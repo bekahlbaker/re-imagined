@@ -4,14 +4,14 @@ Template Name: Home Template
 */
 ?>
 <?php get_header('home'); ?>
-<div class="hero filter" style="background-image: url('<?php the_field('image'); ?>') ; background-size: cover;">
+<div class="hero filter" style="background-image: url('<?php the_field('main_image'); ?>') ; background-size: cover; background-position: center center;">
 	<div class="container-fluid">
 		<div class="content">
 			<div class="welcome">
 				<h1><?php the_field('welcome') ?></h1>
 				<p style="text-transform: uppercase;"><?php the_field('line_1') ?></p>
 				<p style="text-transform: uppercase;"><?php the_field('line_2') ?></p>
-				<button><a href="">Contact Me</a></button>
+				<button><a href=""><?php the_field('contact_button') ?></a></button>
 			</div>
 		</div>
 	</div>
