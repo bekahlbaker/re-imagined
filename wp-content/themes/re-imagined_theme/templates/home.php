@@ -43,7 +43,7 @@ Template Name: Home Template
 		<div class="col-md-3 grid flip-container ">
 			<div class="circle background flipper">
 				<div class="front">
-					<a href="<?php bloginfo(url) ?>/gallery"><h2>Gallery</h2></a>
+					<a href="<?php bloginfo(url) ?>/gallery"><h2>Portfolio</h2></a>
 				</div>
 				<div class="back">
 					<a href="<?php bloginfo(url) ?>/gallery"><p><?php the_field('gallery_message') ?></p></a>

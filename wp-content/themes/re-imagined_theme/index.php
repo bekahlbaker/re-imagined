@@ -30,6 +30,21 @@
 		    );
 		} ?>
 	</div>
+
+<h3>Browse by Tags</h3>
+	<div class="tags">
+		<?php $tags = get_tags();
+		if ($tags) {
+		foreach ($tags as $tag) {
+		echo '<p><a href="' . get_tag_link( $tag->term_id ) . '" title="' . sprintf( __( "View all posts in %s" ), $tag->name ) . '" ' . '>' . $tag->name.'</a> </p> ';
+		}
+		} ?>
+	</div>
+	<div class="subscribe">
+		<h3>Subscribe to Blog</h3>
+		<p>Want to be notified when I post a new article?</p>
+		<?php es_subbox( $namefield = "YES", $desc = "", $group = "" ); ?>
+	</div>
 </div>
 </div>
 <?php get_footer(); ?>
