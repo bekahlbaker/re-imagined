@@ -15,7 +15,7 @@ Template Name: About Template
 			<div class="profile">
 				<?php the_post_thumbnail(); ?>
 			</div>
-			<a href=""><button>Contact Me</button></a>
+			<a href="<?php bloginfo(url) ?>/contact"><button>Contact Me</button></a>
 		</div>
 		<div class="col-md-8 ">
 			<p style="text-align: left!important;"><?php the_content( ); ?></p>
