@@ -1,8 +1,12 @@
 .index{
 	padding-left: 50px;
+
+.description{
+	padding-left: 15px;
 }
 
 h3{
+	padding-left: 15px!important;
 	padding: 0;
 	margin: 0;
 	a{
@@ -15,27 +19,28 @@ h3{
 }
 
 p{
-	padding: 0;
+	padding: 5px 0;
 	margin: 0;	
 }
 
 .excerpt{
+	padding: 10px 0;
 	a{
 		color: $gold!important;
 	}
 }
 
 .thumbnail{
-	max-width: 500px;
+	border: none;
+	height: 150px;
+	overflow: hidden;
 	margin: 0 auto;
+	padding: 10px 0;
 }
 
-.excerpt{
-	max-width: 500px;
-	margin: 0 auto;
-}
 
 .pagination{
 	font-family: $body-font;
 	color: $brown;
+}
 }

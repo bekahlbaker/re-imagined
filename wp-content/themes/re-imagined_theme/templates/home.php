@@ -11,7 +11,7 @@ Template Name: Home Template
 				<h1><?php the_field('welcome') ?></h1>
 				<p style="text-transform: uppercase;"><?php the_field('line_1') ?></p>
 				<p style="text-transform: uppercase;"><?php the_field('line_2') ?></p>
-				<button><a href=""><?php the_field('contact_button') ?></a></button>
+				<button><a href="">Contact Me</a></button>
 			</div>
 		</div>
 	</div>

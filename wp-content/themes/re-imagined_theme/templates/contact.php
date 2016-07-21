@@ -6,9 +6,9 @@ Template Name: ContactTemplate
 <?php get_header(); ?>
 
 <div class="contact container">
-	<div class="title">
+<!-- 	<div class="title">
 		<h4><?php the_field('contact_title') ?></h4>
-	</div>
+	</div> -->
 	<div class="message">
 		<p>
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
