@@ -3,7 +3,30 @@
 		text-transform: none;
 	}
 }
-
+.single{
 h3{
-	color: $gold;
+	a{color: $gold;
+	}
+}
+}
+
+.comments{
+	#submit{
+		background: $gold;
+	    border: 3px solid $gold;
+	    border-radius: 10px;
+	    font-family: $body-font;
+	    font-size: 1em;
+	    letter-spacing: 2px;
+	    margin: 20px auto;
+	    padding: 5px 40px;
+	    text-transform: uppercase;
+	    color: $brown;
+	    	&:hover{
+	    		background: transparent;
+	    		a{
+	    			text-decoration: none;
+	    		}
+	    	}
+	}
 }
