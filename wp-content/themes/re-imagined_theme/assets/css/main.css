@@ -399,6 +399,7 @@ footer .footer li {
 .back p {
   text-align: center;
   overflow-wrap: break-word;
+  padding-top: 30px;
 }
 
 /* entire container, keeps perspective */
@@ -579,6 +580,10 @@ footer .footer li {
   overflow: hidden;
   margin: 0 auto;
   border: 2px solid #2B1B14;
+}
+.profile img {
+  height: 300px;
+  width: 300px;
 }
 
 /*# sourceMappingURL=main.css.map */
