@@ -23,7 +23,7 @@ Template Name: Home Template
 		<div class="col-md-3 grid flip-container ">
 			<div class="circle background flipper">
 				<div class="front">
-					<a href="<?php bloginfo(url) ?>/about"><h2>About</h2></a>
+					<h2>About</h2>
 				</div>
 				<div class="back">
 					<a href="<?php bloginfo(url) ?>/about"><p><?php the_field('about_message') ?></p></a>
@@ -33,7 +33,7 @@ Template Name: Home Template
 		<div class="col-md-3 grid flip-container ">
 			<div class="circle background flipper">
 				<div class="front">
-					<a href="<?php bloginfo(url) ?>/blog"><h2>Blog</h2></a>
+					<h2>Blog</h2>
 				</div>
 				<div class="back">
 					<a href="<?php bloginfo(url) ?>/blog"><p><?php the_field('blog_message') ?></p></a>
@@ -43,17 +43,17 @@ Template Name: Home Template
 		<div class="col-md-3 grid flip-container ">
 			<div class="circle background flipper">
 				<div class="front">
-					<a href="<?php bloginfo(url) ?>/gallery"><h2>Portfolio</h2></a>
+					<h2>Portfolio</h2>
 				</div>
 				<div class="back">
-					<a href="<?php bloginfo(url) ?>/gallery"><p><?php the_field('gallery_message') ?></p></a>
+					<a href="<?php bloginfo(url) ?>/portfolio"><p><?php the_field('gallery_message') ?></p></a>
 				</div>
 			</div>
 		</div>
 		<div class="col-md-3 grid flip-container ">
 			<div class="circle background flipper">
 				<div class="front">
-					<a href="<?php bloginfo(url) ?>/social-media"><h2>Social Media</h2></a>
+					<h2>Social Media</h2>
 				</div>
 				<div class="back">
 					<a href="<?php bloginfo(url) ?>/social-media"><p><?php the_field('social_message') ?></p></a>
