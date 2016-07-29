@@ -1,13 +1,16 @@
 footer{
 	bottom: 0;
 	.footer{
-		padding: 20px;
+		padding: 10px;
 		text-align: center;
 		li{
 			display: inline;
 			list-style: none;
 			padding: 0 5vw;
 			letter-spacing: 2px;
+				a{
+					padding-top: 10px;
+				}
 		}
 	}
 }
