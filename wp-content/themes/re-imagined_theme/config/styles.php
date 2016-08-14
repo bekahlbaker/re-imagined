@@ -21,7 +21,7 @@ function init_css() {
       $handle = 'main-styles',
       $src = get_bloginfo('template_directory') . '/assets/css/main.min.css',
       $deps = '',
-      $ver = null,
+      $ver = false,
       $media = 'all'
     );
     wp_enqueue_style('main-styles');
@@ -35,7 +35,7 @@ function init_css() {
       $media = 'all'
     );
     wp_enqueue_style('font-awesome');
-    
+
   }
 
 
