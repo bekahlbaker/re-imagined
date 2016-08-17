@@ -8,7 +8,7 @@ Template Name: Home Template
 	<div class="container-fluid">
 		<div class="content">
 			<div class="welcome">
-				<h1><?php the_field('welcome') ?></h1>
+				<h1 style="color: #2B1B14;"><?php the_field('welcome') ?></h1>
 				<p style="text-transform: uppercase;"><?php the_field('line_1') ?></p>
 				<p style="text-transform: uppercase;"><?php the_field('line_2') ?></p>
 				<button><a href="<?php bloginfo(url) ?>/contact">Contact Me</a></button>
@@ -20,8 +20,8 @@ Template Name: Home Template
 <div class="container-fluid main-grid">
 	<div class="row">
 
-		<div class="col-md-3 grid flip-container ">
-			<div class="circle background flipper">
+		<div class="col-md-3 grid ">
+			<div class="circle background ">
 				<div class="front">
 					<a href="<?php bloginfo(url) ?>/about"><h2>About</h2></a>
 				</div>
@@ -30,8 +30,8 @@ Template Name: Home Template
 				</div>
 			</div>
 		</div>	
-		<div class="col-md-3 grid flip-container ">
-			<div class="circle background flipper">
+		<div class="col-md-3 grid ">
+			<div class="circle background ">
 				<div class="front">
 					<a href="<?php bloginfo(url) ?>/blog"><h2>Blog</h2></a>
 				</div>
@@ -40,8 +40,8 @@ Template Name: Home Template
 				</div>
 			</div>
 		</div>
-		<div class="col-md-3 grid flip-container ">
-			<div class="circle background flipper">
+		<div class="col-md-3 grid ">
+			<div class="circle background ">
 				<div class="front">
 					<a href="<?php bloginfo(url) ?>/portfolio"><h2>Portfolio</h2></a>
 				</div>
@@ -50,8 +50,8 @@ Template Name: Home Template
 				</div>
 			</div>
 		</div>
-		<div class="col-md-3 grid flip-container ">
-			<div class="circle background flipper">
+		<div class="col-md-3 grid ">
+			<div class="circle background ">
 				<div class="front">
 					<a href="<?php bloginfo(url) ?>/social-media"><h2>Social Media</h2></a>
 				</div>
