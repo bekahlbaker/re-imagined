@@ -267,7 +267,7 @@ header .logo p a:hover {
   text-decoration: none !important;
 }
 header .nav-menu {
-  margin-top: -40px;
+  margin-top: -50px;
   text-align: right;
 }
 @media (max-width: 991px) {
@@ -290,6 +290,9 @@ header .nav-menu ul li {
   padding-left: 20px;
   text-align: center;
 }
+header .nav-menu ul li a {
+  padding-top: 10px;
+}
 
 .sidebar {
   text-align: center;
@@ -306,7 +309,7 @@ footer {
   bottom: 0;
 }
 footer .footer {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
 }
 footer .footer li {
@@ -314,6 +317,9 @@ footer .footer li {
   list-style: none;
   padding: 0 5vw;
   letter-spacing: 2px;
+}
+footer .footer li a {
+  padding-top: 10px;
 }
 
 .background {
@@ -344,7 +350,7 @@ footer .footer li {
   text-align: center;
 }
 .content .welcome h1 {
-  color: #ffffff;
+  color: #2B1B14;
   font-family: "Katibeh", cursive;
   font-weight: 900;
   margin: 0;
@@ -437,6 +443,10 @@ footer .footer li {
 /* back, initially hidden pane */
 .back {
   transform: rotateY(180deg);
+}
+
+.blog {
+  overflow-x: hidden;
 }
 
 .index {
